@@ -1,0 +1,138 @@
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding: 2rem 3rem;
+}
+.header_title {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.search_bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.search_lable {
+  border: 1px solid #f2f2f2;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  position: relative;
+  width: 75%;
+}
+
+.input {
+  font-weight: 700;
+  padding: 0.75rem 0 0.75rem 1.75rem;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+}
+.btn {
+  background-color: #f37928;
+  border: 1px solid #f37928;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.75rem;
+  width: 25%;
+  color: white;
+}
+.weatherandforecast {
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 3rem;
+}
+.weather {
+  padding: 0 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.w_info {
+  display: flex;
+  text-align: left;
+}
+.icon {
+  text-align: left;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  width: 100px;
+  height: 100px;
+}
+.w_list {
+  font-size: 0.85rem;
+  list-style: none;
+  margin-left: 0.75rem;
+  padding: 0;
+}
+.list__temperature {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.temperature-symbol {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.other-info {
+  text-align: right;
+}
+.info__city {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+.info__clouds {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0;
+}
+.WeatherAndForecast__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+.f_title {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0;
+}
+.f_weather-icon {
+  height: 60px;
+  width: 60px;
+}
+.f_temperature {
+  display: flex;
+  justify-content: center;
+}
+.t_max {
+  color: #f37928;
+  margin-right: 0.2rem;
+}
+.t_min {
+  margin-left: 0.2rem;
+}
+.footer {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 3rem auto;
+  text-align: center;
+  width: max-content;
+}
+.footer_text {
+  align-items: center;
+  display: flex;
+}
+.footer_icon {
+  height: 22px;
+  width: 22px;
+}
